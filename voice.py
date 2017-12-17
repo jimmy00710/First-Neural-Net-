@@ -40,9 +40,9 @@ for i in range(len(y)):
 	if y[i][0] == 'male':
 		y[i][0] = 1
 	else:
-		y[i][0] = 2
+		y_onehot[i][0] = 2  # female
 
-#print(y)
+#print(y)=
 #print(y.shape)
 
 from sklearn.preprocessing import OneHotEncoder
